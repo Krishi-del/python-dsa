@@ -1,0 +1,16 @@
+a = input("Enter string:")
+a = a.strip()
+print(a)
+a = a.lower()
+print(a)
+print(len(a.split()))
+temp = a
+for v in "aeiou":
+    temp = temp.replace(v, "*")
+print(temp)    
+print(a.startswith("hello"))
+print(a.endswith("bye"))
+print(a.count('a'))
+print(a.find('e'))
+print(a.replace(" ", ""))
+print("-".join(a))
