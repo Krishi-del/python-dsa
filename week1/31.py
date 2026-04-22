@@ -1,3 +1,5 @@
+#day 3 concepts
+# guess number, end print number of tries taken
 number = 9
 tries = 0
 while True:
