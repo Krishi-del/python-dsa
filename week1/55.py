@@ -1,0 +1,10 @@
+name = input("What is your name?: ")
+age = int(input("Please enter your age: "))
+grade = input("Enter you grade(A/B/C/D): ")
+is_scholorship_holder = input("Do you have a scholorshiop? (yes/no): ")
+ 
+print(f"Name: {name}\n Age: {age}\n Grade: {grade}\n Scholorship Holder: {is_scholorship_holder}")
+print(type(name))
+print(type(age))
+print(type(grade))
+print(type(is_scholorship_holder))
