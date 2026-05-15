@@ -14,10 +14,8 @@ for n in num:
     total+=n
 print("Sum: ", total)
 
-highest = num[0]
-for i in num:
-    if i>highest:
-        i = highest
+
+
         
 
 
