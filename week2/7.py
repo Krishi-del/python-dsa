@@ -11,10 +11,11 @@ lst = []
 for rows in pythonnested:
     for n in rows:
         lst.append(n)
-print(lst)
+print(lst)        
 
+#nested list
 lst1 = [n for rows in pythonnested for n in rows]
 print(lst1)
 
-is_True = bool(lst == lst1)
+is_True = bool (lst == lst1)
 print(is_True)

@@ -12,9 +12,10 @@ for n in range(1,21):
     else:
         print(n)       
 
-fb = [
-    "Fizz" if n % 3 == 0 
+fb =[
+    "Fizz" if n % 3 == 0
     else "Buzz" if n % 5 == 0 
     else n
-    for n in range(1,21)]
+    for n in range(1,21)
+]
 print(fb)

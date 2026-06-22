@@ -6,12 +6,9 @@ Keep only names with more than 3 letters, uppercased
 Create a list of tuples (name, len(name)) for all names
 '''
 names = ['alice', 'bob', 'charlie', 'diana', 'eve']
-
-uc = [item.title() for item in names ]
-print(uc)
-
-le = [n for n in uc if len(n) > 3]
-print(le)
-
-tup = [(name,len(name)) for name in uc]
-print(tup)
+u = [name.title() for name in names]
+print(u)
+j = [name for name in u if len(name) > 3 ]
+print(j)
+t = [(name, len(name)) for name in u]
+print(t)
