@@ -36,3 +36,18 @@ em2 = Employee('Krishi' ,'Tandel',50000)
 print(em1.pay)
 print(Employee.fullname(em2))
 print(em1.fullname())
+
+
+class Dog:
+
+    def __init__(self, name, breed ):
+        self.name = name
+        self.breed = breed
+
+    def bark(self):
+        return f'{self.name} says woof'
+dog1 = Dog('Sheero', 'Golden retriever')
+dog2 = Dog('Marcel','Pug')
+
+print(dog1.bark())
+print(Dog.bark(dog2))
