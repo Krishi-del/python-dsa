@@ -18,35 +18,35 @@ print(car2)
 
 #inheritance
 
-# class Dog:
+class Dog:
 
-#     def __init__(self,name,age):
-#         self.name = name
-#         self.age = age
+    def __init__(self,name,age):
+        self.name = name
+        self.age = age
         
-#     def __str__(self):
-#         return f'{self.name} is {self.age} years old'
+    def __str__(self):
+        return f'{self.name} is {self.age} years old'
     
-#     def speak(self,sound):
-#         return f'{self.name} says {self.sound}'
+    def speak(self,sound):
+        return f'{self.name} says {self.sound}'
     
-# # ...
+# ...
 
-# class JackRussellTerrier(Dog):
-#     pass
+class JackRussellTerrier(Dog):
+    pass
 
-# class Dachshund(Dog):
-#     pass
+class Dachshund(Dog):
+    pass
 
-# class Bulldog(Dog):
-#     pass
+class Bulldog(Dog):
+    pass
 
-# miles = JackRussellTerrier("Miles", 4)
-# buddy = Dachshund("Buddy", 9)
-# jack = Bulldog("Jack", 3)
-# jim = Bulldog("Jim", 5)
+miles = JackRussellTerrier("Miles", 4)
+buddy = Dachshund("Buddy", 9)
+jack = Bulldog("Jack", 3)
+jim = Bulldog("Jim", 5)
 
-# print(jack)
-# print(miles)
+print(jack)
+print(miles)
 
-# print(buddy.age)
+print(buddy.age)
